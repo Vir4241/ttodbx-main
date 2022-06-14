@@ -1,0 +1,15 @@
+{
+  "name": "torrent-dbx",
+  "description": "This app downloads torrents to your Dropbox.",
+  "keywords": [
+    "torrent",
+    "dropbox",
+    "download"
+  ],
+  "success_url": "/",
+  "env": {
+    "REACT_APP_DROPBOX_ACCESS_TOKEN": {
+      "description": "A secret key required for saving files to your Dropbox account."
+    }
+  }
+}
