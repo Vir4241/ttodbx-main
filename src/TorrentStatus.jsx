@@ -56,7 +56,7 @@ class TorrentItem extends Component {
                       <p className="column">{file.name}</p>
                       <div className="column">
                         <a
-                          href={`https://ttodbx3.herokuapp.com/download?file=${
+                          href={`https://torrent-dbx.herokuapp.com/download?file=${
                             file.path
                           }`}
                           className="dropbox-saver dropbox-dropin-btn dropbox-dropin-default"
